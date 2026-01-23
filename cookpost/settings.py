@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_jzqp-f2sra6f!fd@xr1nntq7)@ba79605%))am^v+(1(4(++r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = false
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'cookpost-78a7f1bb5cce.herokuapp.com',  # existing host
