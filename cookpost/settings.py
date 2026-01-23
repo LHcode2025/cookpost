@@ -29,7 +29,7 @@ DEBUG = false
 ALLOWED_HOSTS = [
     'cookpost-78a7f1bb5cce.herokuapp.com',  # existing host
     'www.cookpost-78a7f1bb5cce.herokuapp.com',  # if you want to allow www version
-    'https://cookpost-78a7f1bb5cce.herokuapp.com/login/'
+    
 ]
 
 
