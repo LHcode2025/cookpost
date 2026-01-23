@@ -6,7 +6,7 @@ from django.urls import reverse_lazy
 # Create your views here.
 def home(request):
     posts = Post.objects.all()
-    return render(request, 'blog/home.html', {'posts': posts})
+    return render(request, 'users/home.html', {'posts': posts})
 
 
 # view details
