@@ -4,8 +4,8 @@ gunicorn==20.1.0
 whitenoise==6.5.0
 django-allauth==0.57.2
 django-crispy-forms==2.5
-django-summernote==0.8.20.0  # Optional based on your needs
+crispy-bootstrap4==0.2.5  # Add this line if needed
+django-summernote==0.8.20.0
 requests==2.32.5
 asgiref==3.11.0
 sqlparse==0.5.5
-
