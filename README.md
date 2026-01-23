@@ -10,4 +10,6 @@ User Story 5 : As a user I want to get a warning notification, when I edit or de
 
 User Story 6 : As a user I want others to like or save my recipe. (could-have)
 
-## Entity Relationship Diagram (ERD)
+## Wireframes
+My wireframes were very basic and pretty much what my finmal product looked like. i used Krita to create the wireframes as its the Graphic App i have most experience with.
+![Alt text](https://github.com/LHcode2025/cookpost/blob/main/Readme%20images/wireframes.png?raw=true)
