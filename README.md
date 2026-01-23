@@ -31,6 +31,10 @@ python manage.py runserver
 ![sign up feature](https://github.com/LHcode2025/cookpost/blob/main/Readme%20images/signup.png?raw=true)
 ### Login Feature 
 ![Alt text](https://github.com/LHcode2025/cookpost/blob/main/Readme%20images/login.png?raw=true)
+### New Post Feature
+![Alt text] (https://github.com/LHcode2025/cookpost/blob/main/Readme%20images/new%20post.png?raw=true)
+With option to Edit or Delete the post
+
 
 ## Lighthouse
 Desktop
