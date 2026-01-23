@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-_jzqp-f2sra6f!fd@xr1nntq7)@ba79605%))am^v+(1(4(++r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cookpost-78a7f1bb5cce.herokuapp.com']
+
 
 
 # Application definition
