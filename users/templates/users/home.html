@@ -1,0 +1,47 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col">
+        <h1 class="display-8">CookPost</h1>
+    </div>
+    <div class="col text-end">
+        <a href="{% url 'post-create' %}" class="btn btn-primary btn-lg">Create New Post</a>
+    </div>
+</div>
+<div class="row">
+    {% for post in posts %}
+    <div class="col-md-6 mb-4">
+        <div class="content-sections">
+            <h2>
+                <a href="{% url 'post-detail' post.pk %}">{{post.title}}</a>
+            </h2>
+            <p>{{ post.content}}</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <small>{{ post.pub_date }}</small>
+                <div class="btn-group">
+                    <a href="{% url 'post-update' post.pk %}" class="btn btn-sm btn-outline-secondary">edit</a>
+                    <a href="{% url 'post-delete' post.pk %}" class="btn btn-sm btn-outline-secondary">delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+</div>
+{% endfor %}
+
+</div>
+
+
+
+
+
+
+
+
+{% endblock %}
