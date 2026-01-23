@@ -1,1 +1,24 @@
+# Django Framework
+Django>=3.2,<4.0
+
+# Database Driver for PostgreSQL
+psycopg2-binary
+
+# Django REST framework for building APIs
+djangorestframework
+
+# Gunicorn server for running the app on Heroku
+gunicorn
+
+# Additional utility packages (add as needed)
+# If you're using environment variable management
+python-decouple
+
+# For image handling
+Pillow
+
+# CORS headers (if needed for APIs)
+django-cors-headers
+
+# Any other dependencies your project requires
 
